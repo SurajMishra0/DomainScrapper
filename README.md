@@ -26,4 +26,5 @@ datetime,
 
 # Run Script
 
-go build domain_resolver.go
+go build Domain2IP.go
+go Domain2IP.go
