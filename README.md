@@ -2,7 +2,7 @@
 This script is a domain grabber tool that allows users to input a TLD and retrieve the available domains for that TLD by scraping the "https://zoxh.com/tld" website.
 The retrieved domain names are stored in separate files based on their TLDs.
 
-# Necessary modules and libraries
+# Necessary modules and libraries For DomainScrapper
 
 requests,
 re,
@@ -18,4 +18,12 @@ datetime,
 
 [It search thorugh approx 200 pages for desirect tld.]
 
-For Making the script work fast we are using GO lang to convert domains into ip.
+# We are using GO lang to convert domains into ip.
+
+# Requirements 
+1. Install Go: If you haven't already, download and install the Go programming language from the official Go website: https://golang.org/dl/
+2. Check if Go is installed succesfully by running " go version "
+
+# Run Script
+
+go build domain_resolver.go
