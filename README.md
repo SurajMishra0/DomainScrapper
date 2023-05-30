@@ -4,12 +4,12 @@ The retrieved domain names are stored in separate files based on their TLDs.
 
 # Necessary modules and libraries
 
-requests
-re
-pyfiglet
-bs4
-os
-datetime
+requests,
+re,
+pyfiglet,
+bs4,
+os,
+datetime,
 
 # Working
 
