@@ -26,5 +26,12 @@ datetime,
 
 # Run Script
 
-go build Domain2IP.go
-go Domain2IP.go
+go build Domain2IP.go (not needed actually direct run is enough)
+go run Domain2IP.go
+
+# Range IP
+ 
+We are ranging IP so that we can reverse that ip later and find all the domain being hosted on those ip. it will increase number of domains drastically. 
+
+1. We already have go installed in our system so a code " go run RangeIP.go " is enough.
+2. It will start ranging ip from a given list and will save in a new list.
